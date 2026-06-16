@@ -1,36 +1,206 @@
-# 📊 Customer Shopping Behavior Analysis
+# 🛍️ Customer Shopping Behavior Analysis Dashboard
 
-> *Uncovering actionable insights from 3,900 transactional records to drive strategic business growth.*
+## 📌 Project Overview
 
----
+This project analyzes customer shopping behavior using transactional data from **3,900 customer purchases**. The objective is to uncover patterns in customer spending, product preferences, subscription behavior, and purchasing trends to support data-driven business decisions.
 
-## 🛠️ Tech Stack & Methodology
-This project utilized a robust end-to-end data pipeline to transform raw transaction data into visual intelligence.
-
-| Phase | Technology | Description |
-| :--- | :--- | :--- |
-| **Data Processing** | 🐍 **Python** | Data cleaning, imputation of missing ratings, feature engineering (`age_group`), and standardization. |
-| **Data Storage** | 🗄️ **MySQL** | Centralized database integration for structured querying and complex business logic. |
-| **Visualization** | 📈 **Power BI** | Interactive dashboard creation for executive reporting and trend analysis. |
+The project combines **Python, MySQL, and Power BI** to perform end-to-end data analysis, from data cleaning and transformation to dashboard visualization and business recommendations.
 
 ---
 
-## 💡 Project Highlights
-* **Dataset Foundation**: Analyzed 3,900 purchases across 18 unique features, ensuring data integrity through median-based imputation for missing review ratings [cite: 5, 6, 7, 19].
-* **Customer Segmentation**: Classified customers into **Loyal**, **Returning**, and **New** segments to tailor engagement strategies [cite: 54, 56].
-* **Strategic Metrics**: Leveraged SQL to derive critical business metrics including Revenue by Gender, Shipping Type comparisons, and high-value customer identification [cite: 28, 30, 47].
+## 🎯 Objectives
+
+* Analyze customer purchasing patterns.
+* Identify high-value customer segments.
+* Compare subscriber and non-subscriber behavior.
+* Understand category-wise sales and revenue performance.
+* Generate actionable business insights through interactive visualizations.
 
 ---
 
-## 🚀 Strategic Business Recommendations
+## 📊 Dataset Information
 
-To maximize growth, we recommend the following data-backed initiatives:
+### Dataset Summary
 
-* **📈 Boost Subscription Value**: Promote exclusive benefits to migrate the 73% of non-subscribers into our premium subscription base [cite: 51, 98].
-* **🏆 Launch Loyalty Programs**: Incentivize repeat buyers with targeted rewards to solidify their status as "Loyal" customers [cite: 99].
-* **⚖️ Optimize Discount Policy**: Refine discount distributions to ensure they drive volume without compromising profit margins [cite: 100].
-* **🎯 Targeted Marketing**: Direct promotional efforts toward **Young Adults** and high-frequency **Express Shipping** users, who show strong revenue contributions [cite: 48, 63, 103].
-* **✨ Product Positioning**: Feature top-rated products prominently in all marketing campaigns to capitalize on high customer satisfaction [cite: 45, 46, 101].
+* **Total Records:** 3,900
+* **Total Features:** 18
+* **Data Type:** Customer Shopping Transactions
+
+### Key Attributes
+
+* Customer Demographics
+
+  * Age
+  * Gender
+  * Location
+  * Subscription Status
+
+* Purchase Details
+
+  * Item Purchased
+  * Category
+  * Purchase Amount
+  * Season
+  * Size
+  * Color
+
+* Shopping Behavior
+
+  * Discount Applied
+  * Previous Purchases
+  * Review Rating
+  * Shipping Type
+  * Purchase Frequency
 
 ---
-*Created for data-driven decision making.*
+
+## 🛠️ Technologies Used
+
+### Python
+
+* Pandas
+* NumPy
+* Matplotlib
+* Data Cleaning
+* Feature Engineering
+
+### Database
+
+* MySQL
+
+### Business Intelligence
+
+* Power BI
+
+---
+
+## 🔄 Data Processing Workflow
+
+### 1. Data Cleaning
+
+* Loaded dataset using Pandas.
+* Checked data quality and structure.
+* Handled missing values in Review Ratings.
+* Standardized column names.
+* Removed redundant columns.
+
+### 2. Feature Engineering
+
+* Created Age Groups:
+
+  * Young Adult
+  * Adult
+  * Middle-aged
+  * Senior
+
+* Derived customer purchase behavior metrics.
+
+### 3. SQL Analysis
+
+Performed business-focused analysis including:
+
+* Revenue by Gender
+* Subscriber vs Non-Subscriber Revenue
+* Top Rated Products
+* Shipping Type Analysis
+* Discount Usage Analysis
+* Customer Segmentation
+* Repeat Purchase Analysis
+* Revenue by Age Group
+* Top Products by Category
+
+### 4. Dashboard Development
+
+Built an interactive Power BI dashboard to visualize:
+
+* Customer Distribution
+* Revenue Trends
+* Sales Performance
+* Subscription Analysis
+* Age Group Analysis
+* Category Performance
+
+---
+
+## 📈 Dashboard Insights
+
+### Key Metrics
+
+* Total Customers: **3.9K**
+* Average Purchase Amount: **$59.76**
+* Average Review Rating: **3.75**
+
+### Revenue Analysis
+
+* Clothing generated the highest revenue.
+* Accessories ranked second in revenue contribution.
+* Outerwear contributed the least revenue.
+
+### Customer Analysis
+
+* Approximately 73% customers were non-subscribers.
+* Subscribers showed stronger engagement and spending patterns.
+
+### Age Group Analysis
+
+* Young Adults contributed the highest revenue and sales.
+* Senior customers showed comparatively lower purchasing activity.
+
+---
+
+## 💡 Business Recommendations
+
+### Increase Subscription Adoption
+
+Offer exclusive discounts and loyalty benefits to encourage subscriptions.
+
+### Loyalty Programs
+
+Reward repeat customers to improve retention and customer lifetime value.
+
+### Optimize Discount Strategy
+
+Use discounts strategically to maximize revenue while maintaining profitability.
+
+### Personalized Marketing
+
+Target high-revenue customer segments with tailored promotions.
+
+### Product Positioning
+
+Promote top-rated and best-selling products through focused campaigns.
+
+---
+
+## 📷 Dashboard Preview
+
+![Customer Behavior Dashboard](dashboard.png)
+
+---
+
+## 🚀 Future Enhancements
+
+* Customer Churn Prediction using Machine Learning
+* Sales Forecasting Models
+* Customer Lifetime Value Analysis
+* Recommendation System
+* Real-Time Dashboard Integration
+
+---
+
+## 👨‍💻 Author
+
+**Rohit Mahendhrakar**
+
+* Data Analytics Enthusiast
+* Python Developer
+* SQL & Power BI Learner
+
+### Connect With Me
+
+* LinkedIn: [Add Your LinkedIn URL]
+* GitHub: [Add Your GitHub URL]
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
