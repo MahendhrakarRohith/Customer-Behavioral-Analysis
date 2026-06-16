@@ -170,11 +170,6 @@ Target high-revenue customer segments with tailored promotions.
 
 Promote top-rated and best-selling products through focused campaigns.
 
----
-
-## 📷 Dashboard Preview
-
-![Customer Behavior Dashboard](dashboard.png)
 
 ---
 
